@@ -1,0 +1,87 @@
+
+/* HEADER */
+#portrait {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+#portraitHeader {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    margin: 5% 5% 0;
+}
+
+#textHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    font-size: 40px;
+    padding-left: 15px;
+    border-bottom: 3px solid #F1CF61;
+}
+
+.subTitle {
+    text-align: end;
+    padding-right: 15px;
+}
+
+#categories-card {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 15%;
+}
+
+.btn span {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+
+    padding-left: 15px;
+}
+.btn {
+    height: auto;
+}
+
+/* CARROUSSEL */
+
+#quick-actions {
+    margin: 0 30px;
+}
+
+#quick-actions h2 {
+    font-family: 'Dosis', sans-serif;
+    color: white;
+
+}
+#actions-wrapper {
+    width: 100vw;
+}
+
+#actions {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-right: 30px;
+}
+
+.action {
+    padding: 0 3%;
+    flex:none;
+    width: auto;
+
+    scroll-snap-align: start;
+}
+
+/* NEW BLOCK */
+#action-board {
+    border: unset;
+    border-radius: 20px;
+    background-color: white;
+    margin: 20px 5% 40px;
+    padding-bottom: 30px;
+}
